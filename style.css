@@ -32,8 +32,9 @@
 body {
   font-family: Arial, sans-serif;
   padding: 0;
-  background-color: var(--body-color);
   margin: 10vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
 p {
@@ -42,10 +43,22 @@ p {
   margin: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header i {
+  color: var(--text-color);
+  font-size: 30px;
+}
+
 .container {
   display: block;
   width: 100%;
   margin: auto;
+  background-color: pink;
 }
 
 .totalBalance-container {
@@ -54,7 +67,6 @@ p {
   justify-content: center;
   align-items: center;
 }
-
 
 .container .totalBalance {
   display: block;

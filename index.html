@@ -13,7 +13,20 @@
 <body>
 
     <div class="container">
-        <h2>E-Wallet</h2>
+
+        <div class="header">
+            <div class="header-left">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="header-mid">
+                <h2>E-Wallet</h2>
+            </div>
+
+            <div class="header-right">
+                <i class="fa-solid fa-window-restore"></i>
+            </div>
+        </div>
 
         <div class="totalBalance-container">
             <div class="totalBalance">
@@ -48,13 +61,13 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="balances">
-            <h3>Income (Account Balances)</h3>
-            <div>BPI: $<span id="bpi-balance">0.00</span></div>
-            <div>BDO: $<span id="bdo-balance">0.00</span></div>
-            <div>GoTyme: $<span id="gotyme-balance">0.00</span></div>
-        </div>
+    <div class="balances" style="display: none;">
+        <h3>Income (Account Balances)</h3>
+        <div>BPI: $<span id="bpi-balance">0.00</span></div>
+        <div>BDO: $<span id="bdo-balance">0.00</span></div>
+        <div>GoTyme: $<span id="gotyme-balance">0.00</span></div>
     </div>
 
     <!-- Floating Button -->
