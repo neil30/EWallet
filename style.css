@@ -12,7 +12,7 @@
   --text-color-light: #7e7e7e;
   --input-color: #1a1a1a;
 
-  --body-color: #f2eed7;
+  --body-color: #fff;
   --container-color: #fff;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
@@ -44,7 +44,7 @@ p {
 
 .container {
   display: block;
-  width: 600px;
+  width: 100%;
   margin: auto;
 }
 
@@ -53,8 +53,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--container-color);
-  border-radius: 10px;
 }
 
 .container .totalBalance {
