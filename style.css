@@ -51,7 +51,13 @@ p {
 
 .header i {
   color: var(--text-color);
-  font-size: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header i:hover {
+  transform: scale(1.2);
+  color: var(--first-color);
 }
 
 .container {
@@ -124,9 +130,15 @@ p {
   margin: 10px;
 }
 
-.container .header-summary {
+.container .header-summary .summary-title {
+  color: var(--text-color-light);
+  font-size: 0.85rem;
+}
+
+.container .header-summary .summary-value {
   color: var(--text-color);
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .container .header-summary img {
