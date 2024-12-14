@@ -10,6 +10,7 @@
   --title-color: #131313;
   --text-color: #1a1a1a;
   --text-color-light: #a1a1a1;
+  --text-inverted: #ffffff;
   --icon-color-light: #555555;
   --input-color: #1a1a1a;
 
@@ -28,6 +29,11 @@
   /*========== Font weight ==========*/
   --font-medium: 400;
   --font-semi-bold: 500;
+
+  /*========== Bank Color ==========*/
+  --bank-bdo: #2196f3;
+  --bank-bpi: #ea4444;
+  --bank-gotyme: #00bcd4;
 }
 
 body {
@@ -165,6 +171,38 @@ p {
   justify-content: center;
   align-items: center;
   padding-left: 20px;
+}
+
+.bank-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bank-layout {
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-inverted);
+  font-weight: bold;
+}
+
+.bank-bdo {
+  background-color: var(--bank-bdo);
+}
+
+.bank-bpi{
+  background-color: var(--bank-bpi);
+}
+
+.bank-gotyme {
+  background-color: var(--bank-gotyme);
 }
 
 h2 {

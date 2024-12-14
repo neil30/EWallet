@@ -124,9 +124,9 @@ function updateBalancesUI(balances) {
         label: 'Balance',
         data: [valBDO, valBPI, valGoTyme],
         backgroundColor: [
-          '#1c63cc',
-          '#ef4648',
-          '#3eaca8'
+          '#2196f3',
+          '#ea4444',
+          '#00bcd4'
         ],
         hoverOffset: 4
       }]
